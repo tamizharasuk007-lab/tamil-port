@@ -1,0 +1,21 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0c1018;
+  color: #d7deee;
+  font-family: Inter, system-ui, sans-serif;
+}
+.panel {
+  background: #141a26;
+  border: 1px solid #2b3447;
+  border-radius: 12px;
+  padding: 12px;
+}
+.controls { display: flex; gap: 12px; margin-bottom: 12px; }
+.label-buy,.label-sell {
+  display:inline-block;padding:4px 8px;border-radius:6px;font-weight:700;color:#fff;
+}
+.label-buy { background:#0fa968; }
+.label-sell { background:#db3f57; }
+.grid { display:grid; grid-template-columns:2fr 1fr; gap:12px; }
